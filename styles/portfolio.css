@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -42,4 +43,21 @@ nav li {
 
 nav a{
     text-decoration: none;
+}
+
+
+/* header related style */
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 10px 50px 50px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .hero-img{
+    width: 450px;
+
 }
