@@ -213,10 +213,40 @@ nav a {
 .resume-item-des {
     color: #757575;
     font-size: 15px;
-    font-weight: 600;
 }
 
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+.footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 50px;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.contact-form{
+    display: block;
+    margin-bottom: 50px;
+    padding: 25px  35px;
+    border-radius: 15px;
+}
+
+.footer-column{
+    padding: 25px  10px;
+    gap: 25px;
 }
