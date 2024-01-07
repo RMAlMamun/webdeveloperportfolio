@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 35px;
     font-weight: 800;
 }
@@ -71,34 +71,41 @@ nav a {
     background-position: bottom right;
 }
 
+/* Banner related style */
+
 .banner {
-    padding: 10px 50px 0px 150px;
+    padding: 0px 0px 0px 25px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .hero-img {
-    width: 450px;
+
+.banner .hero-dev {
+    padding: 0px 0px 100px 30px;
+    max-width: 450px;
+    max-height: 450px;
 }
 
 
-
-.banner .hero-img2 {
-    align-items: left bottom;
-    width: 70px;
+.banner-content {
+    width: 600px;
+    margin-top: -150px;
 }
+
 
 .banner-gretting {
-    color: var(--Dark-02, #474747);
+    color: #474747;
     font-size: 45px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 650px;
     margin-bottom: 0px;
 }
 
+
 .banner-title {
-    color: var(--Dark-01, #181818);
+    color:#181818;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
@@ -106,17 +113,26 @@ nav a {
     margin-bottom: 0px;
 }
 
+
 .banner-para {
     margin-top: 0px;
-    margin-right: 70px;
 }
 
-.banner-content {
-    max-width: 700px;
+
+.banner .hero-img {
+    width: 500px;
+    display: flex;
+    
 }
+
 
 /* main section style */
-
+.main {
+    max-width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
