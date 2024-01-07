@@ -18,7 +18,7 @@ body {
 }
 
 .section-title {
-    About Me Copy color: var(--Dark-01, #181818);
+    About Me Copy color: #181818;
     text-align: center;
     font-size: 35px;
     font-style: normal;
@@ -39,7 +39,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 100px 0 150px;
 }
 
 .nav-title {
@@ -90,7 +90,7 @@ nav a {
 
 
 .banner-content {
-    width: 600px;
+    width: 650px;
     margin-top: -150px;
 }
 
@@ -116,6 +116,7 @@ nav a {
 
 .banner-para {
     margin-top: 0px;
+    padding-bottom: 5px;
 }
 
 
