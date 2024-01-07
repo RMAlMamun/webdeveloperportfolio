@@ -7,8 +7,10 @@ body {
     color: #FD6E0A;
 }
 
+.
+
 .btn-primary {
-    border-radius: 5px;
+    border-radius: 10px;
     background: #FD6E0A;
     border: 0;
     font-size: 20px;
@@ -43,9 +45,15 @@ nav {
 }
 
 .nav-title {
-    color: #181818;
+    color: #000000;
     font-size: 35px;
     font-weight: 800;
+}
+
+
+.nav-menu{
+    color: #000000;
+    font-size: 20px;
 }
 
 nav>ul {
